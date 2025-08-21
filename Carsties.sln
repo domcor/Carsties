@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuctionService", "src\Aucti
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SearchService", "src\SearchService\SearchService.csproj", "{64D3FCA8-5916-4C6D-9879-98013C19B448}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Contracts", "src\Contracts\Contracts.csproj", "{5A75879B-5426-402F-8775-6EA1ADA064AF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -43,6 +45,18 @@ Global
 		{64D3FCA8-5916-4C6D-9879-98013C19B448}.Release|x64.Build.0 = Release|Any CPU
 		{64D3FCA8-5916-4C6D-9879-98013C19B448}.Release|x86.ActiveCfg = Release|Any CPU
 		{64D3FCA8-5916-4C6D-9879-98013C19B448}.Release|x86.Build.0 = Release|Any CPU
+		{5A75879B-5426-402F-8775-6EA1ADA064AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A75879B-5426-402F-8775-6EA1ADA064AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A75879B-5426-402F-8775-6EA1ADA064AF}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{5A75879B-5426-402F-8775-6EA1ADA064AF}.Debug|x64.Build.0 = Debug|Any CPU
+		{5A75879B-5426-402F-8775-6EA1ADA064AF}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{5A75879B-5426-402F-8775-6EA1ADA064AF}.Debug|x86.Build.0 = Debug|Any CPU
+		{5A75879B-5426-402F-8775-6EA1ADA064AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A75879B-5426-402F-8775-6EA1ADA064AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A75879B-5426-402F-8775-6EA1ADA064AF}.Release|x64.ActiveCfg = Release|Any CPU
+		{5A75879B-5426-402F-8775-6EA1ADA064AF}.Release|x64.Build.0 = Release|Any CPU
+		{5A75879B-5426-402F-8775-6EA1ADA064AF}.Release|x86.ActiveCfg = Release|Any CPU
+		{5A75879B-5426-402F-8775-6EA1ADA064AF}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -50,5 +64,6 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{C7C29DA5-E84D-434A-9F32-DC4E35691994} = {827E0CD3-B72D-47B6-A68D-7590B98EB39B}
 		{64D3FCA8-5916-4C6D-9879-98013C19B448} = {827E0CD3-B72D-47B6-A68D-7590B98EB39B}
+		{5A75879B-5426-402F-8775-6EA1ADA064AF} = {827E0CD3-B72D-47B6-A68D-7590B98EB39B}
 	EndGlobalSection
 EndGlobal
